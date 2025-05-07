@@ -19,12 +19,13 @@ body{
     background-position: center;
     background-attachment: fixed;
 
-/* Mobile */
 @media only screen and (max-width: 768px) {
-  body {
-    background-size: contain; /* Or use 'cover' with repositioning if needed */
+  header {
+    background-attachment: scroll; /* disables parallax which breaks on mobile */
+    background-size: contain;      /* fits image better on small screens */
     background-position: top center;
   }
+ 
 }
 }
 .container{
