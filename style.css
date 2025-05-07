@@ -18,6 +18,14 @@ body{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+  body {
+    background-size: contain; /* Or use 'cover' with repositioning if needed */
+    background-position: top center;
+  }
+}
 }
 .container{
     padding: 10px 10%;
